@@ -5,25 +5,25 @@ using System.Text.RegularExpressions;
 
 public class LocalTestData : ILocalTest
 {
-    private readonly int? _countLine;
+    private readonly int? _countLines;
 
     private readonly IEnumerable<string>? _lines;
 
-    public int? CountLine { 
-        get => _countLine;
+    public int? CountLines { 
+        get => _countLines;
     }
 
     public IEnumerable<string>? Lines {
         get => _lines;
     }
 
-    public LocalTestData(int countLine,IEnumerable<string> lines)
+    public LocalTestData(int countLines,IEnumerable<string> lines)
     {
-        _countLine = countLine;
+        _countLines = countLines;
         _lines = lines;
     }
 
-    public static LocalTestData GetTests(string path)
+    public static LocalTestData GetTest(string path)
     {
         int countLine = 0;
 
@@ -31,24 +31,11 @@ public class LocalTestData : ILocalTest
 
         try
         {
-            StreamReader reader = new StreamReader(path);
-
-            string? line;
-
-            while ((line = reader.ReadLine()) != null)
-            {
-                if (Regex.Match(line, @"^\d\n",RegexOptions.None) != null)
-                {
-                    countLine = int.Parse(line);
-                    continue;
-                }
-
-                lines.Add(line);
-            }
+            
         }
         catch (Exception e)
         {
-            System.Console.WriteLine(e.Message);
+            System.Console.WriteLine(e.Message + e.Source);
         }
 
         return new LocalTestData(countLine, lines);

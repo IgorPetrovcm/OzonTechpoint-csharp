@@ -3,7 +3,7 @@ namespace Testing.TestFiles;
 
 public interface ILocalTest
 {
-    int? CountLine {get;}
+    int? CountLines {get;}
 
     IEnumerable<string>? Lines {get;}
 
