@@ -1,0 +1,14 @@
+C:\Users\Honor\Desktop\Programming\OzonTechpoint-csharp\SeaBattle\TestSolutions\Try1\bin\Debug\net7.0\Try1.exe
+C:\Users\Honor\Desktop\Programming\OzonTechpoint-csharp\SeaBattle\TestSolutions\Try1\bin\Debug\net7.0\Try1.deps.json
+C:\Users\Honor\Desktop\Programming\OzonTechpoint-csharp\SeaBattle\TestSolutions\Try1\bin\Debug\net7.0\Try1.runtimeconfig.json
+C:\Users\Honor\Desktop\Programming\OzonTechpoint-csharp\SeaBattle\TestSolutions\Try1\bin\Debug\net7.0\Try1.dll
+C:\Users\Honor\Desktop\Programming\OzonTechpoint-csharp\SeaBattle\TestSolutions\Try1\bin\Debug\net7.0\Try1.pdb
+C:\Users\Honor\Desktop\Programming\OzonTechpoint-csharp\SeaBattle\TestSolutions\Try1\obj\Debug\net7.0\Try1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Honor\Desktop\Programming\OzonTechpoint-csharp\SeaBattle\TestSolutions\Try1\obj\Debug\net7.0\Try1.AssemblyInfoInputs.cache
+C:\Users\Honor\Desktop\Programming\OzonTechpoint-csharp\SeaBattle\TestSolutions\Try1\obj\Debug\net7.0\Try1.AssemblyInfo.cs
+C:\Users\Honor\Desktop\Programming\OzonTechpoint-csharp\SeaBattle\TestSolutions\Try1\obj\Debug\net7.0\Try1.csproj.CoreCompileInputs.cache
+C:\Users\Honor\Desktop\Programming\OzonTechpoint-csharp\SeaBattle\TestSolutions\Try1\obj\Debug\net7.0\Try1.dll
+C:\Users\Honor\Desktop\Programming\OzonTechpoint-csharp\SeaBattle\TestSolutions\Try1\obj\Debug\net7.0\refint\Try1.dll
+C:\Users\Honor\Desktop\Programming\OzonTechpoint-csharp\SeaBattle\TestSolutions\Try1\obj\Debug\net7.0\Try1.pdb
+C:\Users\Honor\Desktop\Programming\OzonTechpoint-csharp\SeaBattle\TestSolutions\Try1\obj\Debug\net7.0\Try1.genruntimeconfig.cache
+C:\Users\Honor\Desktop\Programming\OzonTechpoint-csharp\SeaBattle\TestSolutions\Try1\obj\Debug\net7.0\ref\Try1.dll
