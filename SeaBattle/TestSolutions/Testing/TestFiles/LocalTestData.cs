@@ -25,20 +25,25 @@ public class LocalTestData : ILocalTest
 
     public static LocalTestData GetTest(string path)
     {
-        int countLine = 0;
+        int countLines = 0;
 
-        IList<string> lines = new List<string>(); 
+        IEnumerable<string> testsLines = default;
 
         try
         {
-            
+            string[] lines = File.ReadAllLines(path);
+
+            countLines = int.Parse(lines[0]);
+
+            Span<string> dynamicRes = new Span<string>(lines, 1, lines.Length - 1);
+
+            testsLines = dynamicRes.ToArray(); 
         }
         catch (Exception e)
         {
             System.Console.WriteLine(e.Message + e.Source);
         }
 
-        return new LocalTestData(countLine, lines);
-        
+        return new LocalTestData(countLines, testsLines); 
     }
 }

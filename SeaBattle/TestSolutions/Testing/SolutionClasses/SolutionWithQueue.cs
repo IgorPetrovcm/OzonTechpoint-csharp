@@ -5,7 +5,7 @@ using Testing.TestFiles;
 using System.Text;
 
 
-[MemoryDiagnoser]
+
 public class QueueSolution
 {
     [Benchmark]
@@ -84,7 +84,5 @@ public class QueueSolution
             
             result.Append("yes\n");
         }
-
-        Console.WriteLine(result.ToString());
     }
 }
