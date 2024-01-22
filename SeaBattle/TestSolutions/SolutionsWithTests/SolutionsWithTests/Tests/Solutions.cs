@@ -134,4 +134,89 @@ public class Solutions
 
 		return result.ToString();
 	}
+
+	[MethodTesting]
+	public void HashMapMethod2()
+	{
+		StringBuilder result = new StringBuilder();
+
+		for (int i = 0; i < task.CountLines; i++)
+		{
+			int[] testNumbers = task.Lines.ToArray()[i]
+				.Split(' ').Select(x => int.Parse(x)).ToArray();
+
+			Dictionary<int, int> map = new Dictionary<int, int>();
+
+			map.Add(1, 4);
+			map.Add(2, 3);
+			map.Add(3, 2);
+			map.Add(4, 1);
+
+			for (int j = 0; j <  testNumbers.Length; j++)
+			{
+				map[testNumbers[j]]--;
+			}
+
+			bool isTrue = true;
+
+			foreach (int val in map.Values)
+			{
+				if (val != 0)
+				{
+					result.Append("no\n");
+
+					isTrue = false;
+
+					break;
+				}
+			}
+
+			if (isTrue)
+			{
+				result.Append("yes\n");
+
+				continue;
+			}
+		}
+	}
+
+	[MethodTesting]
+	public void ArrayMethod()
+	{
+		StringBuilder result = new StringBuilder();
+
+		for (int i = 0; i < task.CountLines; i++)
+		{
+			int[] testNumbers = task.Lines.ToArray()[i]
+				.Split(' ').Select(x => int.Parse(x)).ToArray();
+
+			int[] isNumbers = new int[4] { 4,3,2,1 };
+
+			for (int j = 0; j < testNumbers.Length; j++)
+			{
+				isNumbers[testNumbers[j] - 1]--;
+			}
+
+			bool isTrue = true;
+
+			for (int j = 0; j < isNumbers.Length; j++)
+			{
+				if (isNumbers[j] != 0)
+				{
+					isTrue = false;
+
+					break;
+				}
+			}
+
+			if (isTrue)
+			{
+				result.Append("yes\n");
+
+				continue;
+			}
+
+			result.Append("no\n");
+		}
+	}
 }

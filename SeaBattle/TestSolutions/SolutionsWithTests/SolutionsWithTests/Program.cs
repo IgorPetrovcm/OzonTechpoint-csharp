@@ -10,6 +10,9 @@ public class Program
 	{
 		TestBuilder tests = new TestBuilder(typeof(Solutions));
 
-        Console.WriteLine(tests.GetTests());
-    }
+		Console.WriteLine(tests.GetTests());
+
+		/*		Solutions s = new Solutions();
+				Console.WriteLine(s.ArrayMethod());*/
+	}
 }
