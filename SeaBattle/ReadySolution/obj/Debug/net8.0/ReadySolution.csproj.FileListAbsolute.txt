@@ -1,0 +1,15 @@
+C:\Users\igorp\Programming\OzonTechpoint-csharp\SeaBattle\ReadySolution\bin\Debug\net8.0\ReadySolution.exe
+C:\Users\igorp\Programming\OzonTechpoint-csharp\SeaBattle\ReadySolution\bin\Debug\net8.0\ReadySolution.deps.json
+C:\Users\igorp\Programming\OzonTechpoint-csharp\SeaBattle\ReadySolution\bin\Debug\net8.0\ReadySolution.runtimeconfig.json
+C:\Users\igorp\Programming\OzonTechpoint-csharp\SeaBattle\ReadySolution\bin\Debug\net8.0\ReadySolution.dll
+C:\Users\igorp\Programming\OzonTechpoint-csharp\SeaBattle\ReadySolution\bin\Debug\net8.0\ReadySolution.pdb
+C:\Users\igorp\Programming\OzonTechpoint-csharp\SeaBattle\ReadySolution\obj\Debug\net8.0\ReadySolution.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\igorp\Programming\OzonTechpoint-csharp\SeaBattle\ReadySolution\obj\Debug\net8.0\ReadySolution.AssemblyInfoInputs.cache
+C:\Users\igorp\Programming\OzonTechpoint-csharp\SeaBattle\ReadySolution\obj\Debug\net8.0\ReadySolution.AssemblyInfo.cs
+C:\Users\igorp\Programming\OzonTechpoint-csharp\SeaBattle\ReadySolution\obj\Debug\net8.0\ReadySolution.csproj.CoreCompileInputs.cache
+C:\Users\igorp\Programming\OzonTechpoint-csharp\SeaBattle\ReadySolution\obj\Debug\net8.0\ReadySolution.sourcelink.json
+C:\Users\igorp\Programming\OzonTechpoint-csharp\SeaBattle\ReadySolution\obj\Debug\net8.0\ReadySolution.dll
+C:\Users\igorp\Programming\OzonTechpoint-csharp\SeaBattle\ReadySolution\obj\Debug\net8.0\refint\ReadySolution.dll
+C:\Users\igorp\Programming\OzonTechpoint-csharp\SeaBattle\ReadySolution\obj\Debug\net8.0\ReadySolution.pdb
+C:\Users\igorp\Programming\OzonTechpoint-csharp\SeaBattle\ReadySolution\obj\Debug\net8.0\ReadySolution.genruntimeconfig.cache
+C:\Users\igorp\Programming\OzonTechpoint-csharp\SeaBattle\ReadySolution\obj\Debug\net8.0\ref\ReadySolution.dll
