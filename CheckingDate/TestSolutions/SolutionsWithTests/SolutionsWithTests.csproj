@@ -11,6 +11,10 @@
       <HintPath>TestManager.dll</HintPath>
       <SpecificVersion>False</SpecificVersion> 
     </Reference>
+    <Reference Include="OzonTestsManager">
+      <HintPath>OzonTestsManager.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
   </ItemGroup>
 
 </Project>

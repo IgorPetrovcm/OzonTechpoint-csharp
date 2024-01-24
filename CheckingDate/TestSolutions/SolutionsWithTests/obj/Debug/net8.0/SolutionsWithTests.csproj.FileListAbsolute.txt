@@ -16,3 +16,4 @@ C:\Users\igorp\Programming\OzonTechpoint-csharp\CheckingDate\TestSolutions\Solut
 C:\Users\igorp\Programming\OzonTechpoint-csharp\CheckingDate\TestSolutions\SolutionsWithTests\obj\Debug\net8.0\SolutionsWithTests.pdb
 C:\Users\igorp\Programming\OzonTechpoint-csharp\CheckingDate\TestSolutions\SolutionsWithTests\obj\Debug\net8.0\SolutionsWithTests.genruntimeconfig.cache
 C:\Users\igorp\Programming\OzonTechpoint-csharp\CheckingDate\TestSolutions\SolutionsWithTests\obj\Debug\net8.0\ref\SolutionsWithTests.dll
+c:\Users\igorp\Programming\OzonTechpoint-csharp\CheckingDate\TestSolutions\SolutionsWithTests\bin\Debug\net8.0\OzonTestsManager.dll

@@ -11,8 +11,8 @@ public class Program
 
         System.Console.WriteLine(solution.EasyMethod());
 
-        TestBuilder tests = new TestBuilder(typeof(Solutions));
+        /*TestBuilder tests = new TestBuilder(typeof(Solutions));
 
-        System.Console.WriteLine(tests.GetTests());
+        System.Console.WriteLine(tests.GetTests());*/
     }
 }

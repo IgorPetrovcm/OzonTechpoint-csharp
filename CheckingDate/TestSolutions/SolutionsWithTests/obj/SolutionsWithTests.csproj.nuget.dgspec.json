@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\igorp\\Programming\\OzonTechpoint-csharp\\CheckingDate\\TestSolutions\\SolutionsWithTests\\SolutionsWithTests.csproj": {}
+    "c:\\Users\\igorp\\Programming\\OzonTechpoint-csharp\\CheckingDate\\TestSolutions\\SolutionsWithTests\\SolutionsWithTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\igorp\\Programming\\OzonTechpoint-csharp\\CheckingDate\\TestSolutions\\SolutionsWithTests\\SolutionsWithTests.csproj": {
+    "c:\\Users\\igorp\\Programming\\OzonTechpoint-csharp\\CheckingDate\\TestSolutions\\SolutionsWithTests\\SolutionsWithTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\igorp\\Programming\\OzonTechpoint-csharp\\CheckingDate\\TestSolutions\\SolutionsWithTests\\SolutionsWithTests.csproj",
+        "projectUniqueName": "c:\\Users\\igorp\\Programming\\OzonTechpoint-csharp\\CheckingDate\\TestSolutions\\SolutionsWithTests\\SolutionsWithTests.csproj",
         "projectName": "SolutionsWithTests",
-        "projectPath": "C:\\Users\\igorp\\Programming\\OzonTechpoint-csharp\\CheckingDate\\TestSolutions\\SolutionsWithTests\\SolutionsWithTests.csproj",
+        "projectPath": "c:\\Users\\igorp\\Programming\\OzonTechpoint-csharp\\CheckingDate\\TestSolutions\\SolutionsWithTests\\SolutionsWithTests.csproj",
         "packagesPath": "C:\\Users\\igorp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\igorp\\Programming\\OzonTechpoint-csharp\\CheckingDate\\TestSolutions\\SolutionsWithTests\\obj\\",
+        "outputPath": "c:\\Users\\igorp\\Programming\\OzonTechpoint-csharp\\CheckingDate\\TestSolutions\\SolutionsWithTests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\igorp\\AppData\\Roaming\\NuGet\\NuGet.Config",

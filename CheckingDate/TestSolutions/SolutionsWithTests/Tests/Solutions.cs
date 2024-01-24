@@ -2,20 +2,21 @@ namespace SolutionsWithTests.Tests;
 
 using TestManager.Attributes;
 using System.Text;
+using OzonTestsManager;
 
 
 public class Solutions
 {
-    LocalTestTasks task = LocalTestTasks.AddTask(File.ReadAllLines("Tests/Test.txt"));
+    OzonCurrentTest ozonTest = OzonTools.CompleteCreation(File.ReadAllLines("../../../Tests/Test.txt"), File.ReadAllLines("../../../Tests/Result.txt"));
 
     [MethodTesting]
     public string EasyMethod()
     {
         StringBuilder result = new StringBuilder();
 
-        for (int i = 0; i < task.CountLines; i++)
+        for (int i = 0; i < ozonTest.Task.count; i++)
         {
-            ReadOnlySpan<char> dateParams = task.Lines.ToArray()[i];
+            ReadOnlySpan<char> dateParams = ozonTest.Task.lines.ToArray()[i];
 
             DateTime isTime = new DateTime();
 
