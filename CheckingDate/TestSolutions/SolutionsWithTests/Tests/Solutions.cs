@@ -3,16 +3,17 @@ namespace SolutionsWithTests.Tests;
 using TestManager.Attributes;
 using System.Text;
 using OzonTestsManager;
+using OzonTestsManager.Entities;
 
 
 public class Solutions
 {
-    OzonCurrentTest ozonTest = OzonTools.CompleteCreation(File.ReadAllLines("../../../Tests/Test.txt"), File.ReadAllLines("../../../Tests/Result.txt"));
+    OzonCurrentTest ozonTest = OzonTools.CompleteCreation(File.ReadAllLines("Tests/Test.txt"), File.ReadAllLines("Tests/Result.txt"));
 
     [MethodTesting]
     public string EasyMethod()
     {
-        StringBuilder result = new StringBuilder();
+        List<DataTaskResult> results = new List<DataTaskResult>();
 
         for (int i = 0; i < ozonTest.Task.count; i++)
         {
@@ -21,11 +22,11 @@ public class Solutions
             DateTime isTime = new DateTime();
 
             if (DateTime.TryParse(dateParams, out isTime))
-                result.Append("yes\n");
+                results.Add(new DataTaskResult(i + 1, "yes"));
             else 
-                result.Append("no\n");
+                results.Add(new DataTaskResult(i + 1, "no"));
         }
 
-        return result.ToString();
+        return ozonTest.TestChecking(results);
     }
 }

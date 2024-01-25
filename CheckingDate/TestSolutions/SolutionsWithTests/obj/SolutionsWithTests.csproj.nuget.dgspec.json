@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\igorp\\Programming\\OzonTechpoint-csharp\\CheckingDate\\TestSolutions\\SolutionsWithTests\\SolutionsWithTests.csproj": {}
+    "C:\\Users\\Honor\\Desktop\\Programming\\OzonTechpoint-csharp\\CheckingDate\\TestSolutions\\SolutionsWithTests\\SolutionsWithTests.csproj": {}
   },
   "projects": {
-    "c:\\Users\\igorp\\Programming\\OzonTechpoint-csharp\\CheckingDate\\TestSolutions\\SolutionsWithTests\\SolutionsWithTests.csproj": {
+    "C:\\Users\\Honor\\Desktop\\Programming\\OzonTechpoint-csharp\\CheckingDate\\TestSolutions\\SolutionsWithTests\\SolutionsWithTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\igorp\\Programming\\OzonTechpoint-csharp\\CheckingDate\\TestSolutions\\SolutionsWithTests\\SolutionsWithTests.csproj",
+        "projectUniqueName": "C:\\Users\\Honor\\Desktop\\Programming\\OzonTechpoint-csharp\\CheckingDate\\TestSolutions\\SolutionsWithTests\\SolutionsWithTests.csproj",
         "projectName": "SolutionsWithTests",
-        "projectPath": "c:\\Users\\igorp\\Programming\\OzonTechpoint-csharp\\CheckingDate\\TestSolutions\\SolutionsWithTests\\SolutionsWithTests.csproj",
-        "packagesPath": "C:\\Users\\igorp\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\igorp\\Programming\\OzonTechpoint-csharp\\CheckingDate\\TestSolutions\\SolutionsWithTests\\obj\\",
+        "projectPath": "C:\\Users\\Honor\\Desktop\\Programming\\OzonTechpoint-csharp\\CheckingDate\\TestSolutions\\SolutionsWithTests\\SolutionsWithTests.csproj",
+        "packagesPath": "C:\\Users\\Honor\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Honor\\Desktop\\Programming\\OzonTechpoint-csharp\\CheckingDate\\TestSolutions\\SolutionsWithTests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\igorp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Honor\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

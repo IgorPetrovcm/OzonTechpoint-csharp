@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\igorp\\.nuget\\packages\\": {}
+    "C:\\Users\\Honor\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\igorp\\Programming\\OzonTechpoint-csharp\\CheckingDate\\TestSolutions\\SolutionsWithTests\\SolutionsWithTests.csproj",
+      "projectUniqueName": "C:\\Users\\Honor\\Desktop\\Programming\\OzonTechpoint-csharp\\CheckingDate\\TestSolutions\\SolutionsWithTests\\SolutionsWithTests.csproj",
       "projectName": "SolutionsWithTests",
-      "projectPath": "C:\\Users\\igorp\\Programming\\OzonTechpoint-csharp\\CheckingDate\\TestSolutions\\SolutionsWithTests\\SolutionsWithTests.csproj",
-      "packagesPath": "C:\\Users\\igorp\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\igorp\\Programming\\OzonTechpoint-csharp\\CheckingDate\\TestSolutions\\SolutionsWithTests\\obj\\",
+      "projectPath": "C:\\Users\\Honor\\Desktop\\Programming\\OzonTechpoint-csharp\\CheckingDate\\TestSolutions\\SolutionsWithTests\\SolutionsWithTests.csproj",
+      "packagesPath": "C:\\Users\\Honor\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Honor\\Desktop\\Programming\\OzonTechpoint-csharp\\CheckingDate\\TestSolutions\\SolutionsWithTests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\igorp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Honor\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
