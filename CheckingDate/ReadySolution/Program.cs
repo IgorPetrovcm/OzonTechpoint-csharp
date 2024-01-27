@@ -9,11 +9,12 @@ public class Program
 
         for (int i = 0; i < countLines; i++)
         {
-            ReadOnlySpan<char> dateParams = Console.ReadLine();
+            int[] dateParams = Console.ReadLine()
+                                    .Split(' ').Select(x => int.Parse(x)).ToArray();
 
-            DateTime isDate;
+            int daysInCurrentMonth = DateTime.DaysInMonth(dateParams[2], dateParams[1]);
 
-            if (DateTime.TryParse(dateParams, out isDate))
+            if (dateParams[0] > 0 && dateParams[0] <= daysInCurrentMonth)
                 Console.WriteLine("yes");
             else
                 Console.WriteLine("no");
