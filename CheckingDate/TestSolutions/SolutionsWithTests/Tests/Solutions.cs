@@ -4,7 +4,7 @@ using TestManager.Attributes;
 using System.Text;
 using OzonTestsManager;
 using OzonTestsManager.Entities;
-
+using System.Globalization;
 
 public class Solutions
 {
@@ -17,11 +17,12 @@ public class Solutions
 
         for (int i = 0; i < ozonTest.Task.count; i++)
         {
-            ReadOnlySpan<char> dateParams = ozonTest.Task.lines.ToArray()[i];
+            int[] dateParams = ozonTest.Task.lines.ToArray()[i]
+                                .Split(' ').Select(x => int.Parse(x)).ToArray();
 
-            DateTime isTime = new DateTime();
+            int daysCount = DateTime.DaysInMonth(dateParams[2], dateParams[1]);
 
-            if (DateTime.TryParse(dateParams, out isTime))
+            if (dateParams[0] > 0 && dateParams[0] <= daysCount)
                 results.Add(new DataTaskResult(i + 1, "yes"));
             else 
                 results.Add(new DataTaskResult(i + 1, "no"));
