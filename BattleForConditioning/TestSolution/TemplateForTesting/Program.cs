@@ -8,15 +8,13 @@ public class Program
     {
         OzonCurrentTest test = OzonTools.CompleteCreation(File.ReadAllLines("../../../Task.txt"), File.ReadAllLines("../../../Result.txt"));
 
-        for (int i = 0; i < test.TaskCount; i++)
-        {
-            string[] task = test.ArrayTasks;
+        string[] task = test.ArrayTasks;
 
-            for (int j = 0; j < task.Length; j++)
+        for (int j = 0; j < task.Length; j++)
+        {
+            for (int h = 0; h < int.Parse(task[j]); h++)
             {
-                for (int h = 0; h < int.Parse(task[j]); h++)
-                {
-                    j++;
+                j++;
 
                     //Работаем с каждым элементом 'i' набора в интервале от: task[j++], пока h меньше значнеия указанного в task[j]
                     //Допусти:
@@ -30,7 +28,6 @@ public class Program
                         >= 5 (j + 4) => последняя операция, так как далее 'h' равняеться 4, то есть изначально 'j'
 
                     */  
-                }
             }
         }
     }
