@@ -8,13 +8,40 @@ public class Solutions
 {
     OzonCurrentTest test = OzonTools.CompleteCreation(File.ReadAllLines("Tests/Task.txt"),File.ReadAllLines("Tests/Result.txt"));
 
+    YourTaskResult result = new YourTaskResult();
+
+    string pattern = @"\D{1}\d{1,2}\D{2}";
+
     [MethodTesting]
-    public string MyFirstSolution()
+    public void Solution1()
     {
-        YourTaskResult result = new YourTaskResult();
+        for (int i = 0; i < test.TaskCount; i++)
+        {
+            string task = test.ArrayTasks[i];
 
-        string pattern = @"\D{1}\d{1,2}\D{2}";
+            string[] matchesLine = new string[task.Length / 4];
 
+            int j = 0;
+
+            foreach (Match match in Regex.Matches(task, pattern))
+            {
+                task = task.Replace(match.ToString(), "");
+
+                matchesLine[j] = match.ToString();
+
+                j++;
+            }
+
+            if (task.Length > 0)
+                result.Add("-");
+            else 
+                result.Add(String.Join(' ', matchesLine));
+        }
+
+    }
+    [MethodTesting]
+    public void MyFirstSolution()
+    {
         for (int i = 0; i < test.TaskCount; i++)
         {
             string task = test.ArrayTasks[i];
@@ -34,7 +61,7 @@ public class Solutions
             }
             else 
             {
-                result.Add("no");
+                result.Add("-");
                 continue;
             }
 
@@ -44,6 +71,8 @@ public class Solutions
                 result.Add(String.Join(' ', matchesLine));
         }
 
-        return test.TestChecking(result);
     }
+
+
+
 }

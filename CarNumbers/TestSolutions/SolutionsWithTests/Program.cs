@@ -7,8 +7,8 @@ public class Program
 {
     static void Main()
     {
-        Solutions solutions = new Solutions();
-        System.Console.WriteLine(solutions.MyFirstSolution());
+        /*Solutions solutions = new Solutions();
+        System.Console.WriteLine(solutions.Solution1());*/
 
         TestBuilder testBuilder = new TestBuilder(typeof(Solutions));
 
