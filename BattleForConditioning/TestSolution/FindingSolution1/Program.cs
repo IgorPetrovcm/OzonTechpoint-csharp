@@ -7,71 +7,23 @@ public class Program
 {
     static void Main()
     {
-        int employeeGroupCount = int.Parse(Console.ReadLine());
+        OzonCurrentTest test = OzonTools.CompleteCreation(File.ReadAllLines("Task.txt"),File.ReadAllLines("Result.txt"));
 
-        for (int i = 0; i < employeeGroupCount; i++)
+        for (int i = 0; i < test.TaskCount; i++)
         {
-            int employeeCount = int.Parse(Console.ReadLine());
+            string[] task = test.ArrayTasks;
 
-            StringBuilder result = new StringBuilder();
+            YourTaskResult result = new YourTaskResult();
 
-            bool tail = false;
-
-            string firstRequirement = Console.ReadLine();
-
-            int currentValue = int.Parse(firstRequirement[3].ToString() + firstRequirement[4].ToString());
-            char currentRequirment = firstRequirement[0];
-
-            result.Append(currentValue + "\n");
-
-            for (int j = 1; j < employeeCount; j++)
+            for (int j = 0; j < task.Length; j++)
             {
-                string requirement = Console.ReadLine();
-
-                if (tail == true)
+                for (int h = 0; h < int.Parse(task[j]); h++)
                 {
-                    result.Append("-1\n");
-                    continue;
-                }
+                    j++;
 
-                int number = int.Parse(requirement[3].ToString() + requirement[4].ToString());
-
-                if (currentRequirment == '>')
-                {
-                    if (number >= currentValue)
-                    {
-                        result.Append(currentValue + "\n");
-
-                        if (requirement[0] == '>')
-                            currentValue = number;
-                            
-                        currentRequirment = requirement[0];
-                    }
-                    else 
-                    {
-                        tail = true;
-
-                        result.Append("-1\n");
-                    }
-                }
-                else
-                {
-                    if (number <= currentValue)
-                    {
-                        result.Append(currentValue + "\n");
-
-                        currentRequirment = requirement[0];
-                    }
-                    else 
-                    {
-                        tail = true;
-
-                        result.Append("-1\n");
-                    }
+                    
                 }
             }
-
-            Console.WriteLine(result.ToString());
         }
     }
 }
