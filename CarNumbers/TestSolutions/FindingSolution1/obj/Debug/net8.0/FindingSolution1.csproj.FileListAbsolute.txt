@@ -1,0 +1,15 @@
+C:\Users\igorp\Programming\OzonTechpoint-csharp\CarNumbers\TestSolutions\FindingSolution1\bin\Debug\net8.0\FindingSolution1.exe
+C:\Users\igorp\Programming\OzonTechpoint-csharp\CarNumbers\TestSolutions\FindingSolution1\bin\Debug\net8.0\FindingSolution1.deps.json
+C:\Users\igorp\Programming\OzonTechpoint-csharp\CarNumbers\TestSolutions\FindingSolution1\bin\Debug\net8.0\FindingSolution1.runtimeconfig.json
+C:\Users\igorp\Programming\OzonTechpoint-csharp\CarNumbers\TestSolutions\FindingSolution1\bin\Debug\net8.0\FindingSolution1.dll
+C:\Users\igorp\Programming\OzonTechpoint-csharp\CarNumbers\TestSolutions\FindingSolution1\bin\Debug\net8.0\FindingSolution1.pdb
+C:\Users\igorp\Programming\OzonTechpoint-csharp\CarNumbers\TestSolutions\FindingSolution1\obj\Debug\net8.0\FindingSolution1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\igorp\Programming\OzonTechpoint-csharp\CarNumbers\TestSolutions\FindingSolution1\obj\Debug\net8.0\FindingSolution1.AssemblyInfoInputs.cache
+C:\Users\igorp\Programming\OzonTechpoint-csharp\CarNumbers\TestSolutions\FindingSolution1\obj\Debug\net8.0\FindingSolution1.AssemblyInfo.cs
+C:\Users\igorp\Programming\OzonTechpoint-csharp\CarNumbers\TestSolutions\FindingSolution1\obj\Debug\net8.0\FindingSolution1.csproj.CoreCompileInputs.cache
+C:\Users\igorp\Programming\OzonTechpoint-csharp\CarNumbers\TestSolutions\FindingSolution1\obj\Debug\net8.0\FindingSolution1.sourcelink.json
+C:\Users\igorp\Programming\OzonTechpoint-csharp\CarNumbers\TestSolutions\FindingSolution1\obj\Debug\net8.0\FindingSolution1.dll
+C:\Users\igorp\Programming\OzonTechpoint-csharp\CarNumbers\TestSolutions\FindingSolution1\obj\Debug\net8.0\refint\FindingSolution1.dll
+C:\Users\igorp\Programming\OzonTechpoint-csharp\CarNumbers\TestSolutions\FindingSolution1\obj\Debug\net8.0\FindingSolution1.pdb
+C:\Users\igorp\Programming\OzonTechpoint-csharp\CarNumbers\TestSolutions\FindingSolution1\obj\Debug\net8.0\FindingSolution1.genruntimeconfig.cache
+C:\Users\igorp\Programming\OzonTechpoint-csharp\CarNumbers\TestSolutions\FindingSolution1\obj\Debug\net8.0\ref\FindingSolution1.dll
