@@ -1,8 +1,6 @@
 ﻿namespace FindingSolution1;
 
-using System.Globalization;
 using System.Text;
-using System.Xml.XPath;
 using OzonTestsManager;
 
 
@@ -10,7 +8,7 @@ public class Program
 {
     static void Main()
     {
-        OzonCurrentTest test = OzonTools.CompleteCreation(File.ReadAllLines("Task.txt"), File.ReadAllLines("Result.txt"));
+        OzonCurrentTest test = OzonTools.CompleteCreation(File.ReadAllLines("../../../Task.txt"), File.ReadAllLines("../../../Result.txt"));
 
         string[] task = test.ArrayTasks;
 
