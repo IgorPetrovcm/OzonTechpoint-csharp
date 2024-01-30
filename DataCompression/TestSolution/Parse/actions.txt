@@ -1,0 +1,51 @@
+arr: 3 2 1 0 -1 0 6 6 7
+
+create i = 0
+
+arr i = 3
+
+create current = arr i 
+
+create j = 1
+
+if i + j > arr length-1
+    result += arr i AND 0
+
+create state = false
+
+if (current - arr (i + j) > 0)
+    state = true
+
+while abs(arr (i + j) - current) == 1 OR i + j <= arr length-1
+
+    j++ 
+
+    current
+
+result += arr i AND arr i - arr (i + j)
+
+
+
+ITERATIONS:
+    
+i = 0
+
+current = 3
+
+j = 1
+
+|| i + j_(1) < arr length-1_(8) ||
+
+abs(arr (i + j)_(2) - current_(3)) == 1 AND i + j_(1) < arr length-1_(8)
+
+    j = 2
+
+abs(arr (i + j)_(1) - current_(3)) == 1 AND i + j_(2) < _(8)
+
+    j = 3
+
+abs (arr (i + j)_(0) - _(3)) == 1 AND i + j_(3) < _(8)
+
+    j = 4
+
+abs (arr (i + j)_(-1) - _(3))
