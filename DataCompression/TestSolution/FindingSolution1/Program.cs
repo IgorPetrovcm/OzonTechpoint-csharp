@@ -25,16 +25,12 @@ public class Program
 
             int pre = 0;
 
-            int pos = 0;
-
             for (int j = 1; j < int.Parse(task[i]); j++)
             {
                 if (current == 0)
                 {
                     if (Math.Abs(numbers[j] - numbers[j-1]) == 1)
                     {
-                        current++;
-
                         pre = numbers[j-1];
 
                         if (numbers[j] < numbers[j-1])
@@ -46,8 +42,14 @@ public class Program
                             isMore = true;
                         }
                     }
+                    else 
+                    {
+                        pre = numbers[j-1];
+
+                        result.Append(pre + " " + "0 ");
+                    }
                 }
-                else if (Math.Abs(numbers[j] - numbers[j-1]) == 1)
+                if (Math.Abs(numbers[j] - numbers[j-1]) == 1)
                 {
                     if ((numbers[j] > numbers[j-1]) == isMore)
                     {
@@ -55,13 +57,36 @@ public class Program
                     }
                     else
                     {
-                        pos = numbers[j];
+                        result.Append(IsMoreResult(pre, current, isMore));
 
-
-                        result.Append(pre + " " + pos);
+                        current = 0;
                     }
                 }
+                if (j == int.Parse(task[i]) - 1)
+                {
+                    result.Append(IsMoreResult(pre, current, isMore));
+
+                    System.Console.WriteLine(result.ToString());
+                }
             }
+
+            i++;
+        }
+
+        string IsMoreResult(int pre, int current, bool isMore)
+        {
+            int pos = 0;
+
+            if (isMore == true)
+            {
+                pos = current;
+            }
+            else
+            {
+                pos = -current;
+            }
+
+            return pre + " " + pos + " ";
         }
     }
 }
