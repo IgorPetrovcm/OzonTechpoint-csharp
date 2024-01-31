@@ -1,12 +1,14 @@
-arr: 3 2 1 0 -1 0 6 6 7
+create j = 0
 
 create i = 0
 
-arr i = 3
+arr: 3 2 1 0 -1 0 6 6 7
+
+arr i = i + j
 
 create current = arr i 
 
-create j = 1
+j = 1
 
 if i + j > arr length-1
     result += arr i AND 0
@@ -17,13 +19,19 @@ if (current - arr (i + j) > 0)
     state = true
 
 while abs(arr (i + j) - current) == 1 OR i + j <= arr length-1
+    if ((current - arr (i + j) > 0 ) != state)
+        break
+
+    current = arr i + j
 
     j++ 
 
-    current
 
-result += arr i AND arr i - arr (i + j)
+ 
+result += arr i AND arr (i + j - 1) - arr i 
 
+
+__________________________________________________________________
 
 
 ITERATIONS:
@@ -34,18 +42,89 @@ current = 3
 
 j = 1
 
+state = true
+
 || i + j_(1) < arr length-1_(8) ||
 
 abs(arr (i + j)_(2) - current_(3)) == 1 AND i + j_(1) < arr length-1_(8)
+    current_(3) - arr (i + j)_(2) > 0  THAT IS  == state_(true) THAT IS loc_result = false
+
+    current = 2    
 
     j = 2
 
-abs(arr (i + j)_(1) - current_(3)) == 1 AND i + j_(2) < _(8)
+abs(1 - 2) == 1 AND 2 < 8
+    2 - 1 > 0 THAT IS == state_(true) THAT IS loc_result = false
+
+    current = 1
 
     j = 3
 
-abs (arr (i + j)_(0) - _(3)) == 1 AND i + j_(3) < _(8)
+abs (0 - 1) == 1 AND 3 < 8
+    1 - 0 > 0 THAT IS == state_(true) THAT IS loc_result = false
+
+    current = 0
 
     j = 4
 
-abs (arr (i + j)_(-1) - _(3))
+abs (-1 - 0) == 1 AND 4 < 8
+    0 - -1(+ 1) > 0 THAT IS == true THAT IS false 
+
+    current = -1 
+
+    j = 5
+
+abs (0 - 1) == 1 AND 5 < 8
+    -1 - 0 < 0 THAT IS == false THAT IS true
+        break;
+
+result += 3 (arr (i + j - 1 _(4))_(-1) - _(3)) -4
+__________________________________________________________________
+
+i = i_(0) + j_(5) _(5)
+
+current = 0
+
+j = 1
+
+0 - 6 < 0
+    state = false
+
+abs (6 - 0) != 1
+
+result += 0 (arr (i + j - 1 _(5))_(0) - _(0)) 0
+
+__________________________________________________________________
+
+i = 5 + 1 _(6)
+
+current = 6
+
+j = 1
+
+6 - 6 == 0 
+    state = false
+
+abs (6 - 6) != 1 
+
+result += 6 (arr (i + j - 1 _(6))_(6) - _(6)) 0
+
+__________________________________________________________________
+
+i = 6 + 1 _(7)
+
+current = 6
+
+6 - 7 < 0
+    state = false
+
+abs (7 - 6) == 1 AND 7 < 8
+    6 - 7 > 0 THAT IS false THAT IS false
+
+    current = 7
+
+    j = 2
+
+ 6 + 2 == 8 
+
+ result += 6 (arr (i + j - 1 -(7))_(7) - _(6)) 1
