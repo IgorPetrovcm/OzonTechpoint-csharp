@@ -4,7 +4,7 @@ create i = 0
 
 arr: 3 2 1 0 -1 0 6 6 7
 
-arr i = i + j
+i = i + j
 
 create current = arr i 
 
